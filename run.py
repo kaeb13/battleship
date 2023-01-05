@@ -1,7 +1,7 @@
 import random 
 
 class Gameboard: 
-    def __init__ (self, board): 
+    def __init__(self, board):
         self.board = board
 
     def get_letters_to_numbers():
@@ -18,8 +18,34 @@ class Gameboard:
             
 class Battleship:
     def __init__ (self, board):
-        self.board = board 
+        self.board = board
+
+    def create_ships(self):
+        for i in range(5):
+            self.x_row, self.y_column = random.randint(0, 7)
+            while self.board[self.x_row][self.y_column] == "X":
+                self.x_row, self.y_column = random.randint(0, 7)
+                self.board[self.x_row][self.y_column] = "X"
+            return self.board
+
+    def get_user_input(self):
+        try:
+            x_row = input("Enter the row of the ship: ")
+            while x_row not in '12345678':
+                print('Not valid- Please choose a number from 1-8')
+                x_row = input("Enter the row of the ship: ")
+
+            y_column = input("Enter the column letter of the ship: ").upper()
+            while y_column not in 'ABCDEFGH':
+                print('Not valid. Please choose a letter from A-H')
+                y_column = input("Enter the column letter of the ship: ").upper()
+             return int(x_row) - 1, GameBoard.get_letters_to_numbers()[y_column]
+
+
+
+
         
-         
 
 
+
+ 
