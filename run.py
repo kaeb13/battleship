@@ -16,5 +16,10 @@ class Gameboard:
             print("%s|%s" % (row_number, "|".join(row)))
             row_number += 1 
             
-            
+class Battleship:
+    def __init__ (self, board):
+        self.board = board 
+        
+         
+
 
