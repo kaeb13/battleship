@@ -34,15 +34,15 @@ class Battleship:
 
     def get_user_input(self):
         try:
-            x_row = input("Enter the row of the ship: ")
+            x_row = input("Enter the row of the ship:  \n")
             while x_row not in '12345678':
                 print('Not an actual row- please choose a number from 1-8')
                 x_row = input("Enter the row of the ship: ")
 
-            y_column = input("Enter the column letter of the ship: ").upper()
+            y_column = input("Enter the column letter of the ship: \n").upper()
             while y_column not in "ABCDEFGH":
                 print('Not a actual column- please choose a letter from A-H')
-                y_column = input("Enter the column letter of the ship: ").upper()
+                y_column = input("Enter the column letter of the ship: \n").upper()
             return int(x_row) - 1, GameBoard.get_letters_to_numbers()[y_column]
         except ValueError and KeyError:
             print("Not a valid input")
