@@ -7,7 +7,7 @@
 
 * Link to live project <a href=https://battleshipebkalola.herokuapp.com> link </a>
 
-<img width="1280" alt="Screen Shot 2023-01-06 at 10 27 17" src="https://user-images.githubusercontent.com/117651816/210972451-6428f21e-95a3-4aad-be2a-0aa8a7438e49.png">
+![pp3ebka](https://user-images.githubusercontent.com/117651816/211003213-d041c220-1e18-4c4e-a7a3-475605fe5fce.png)
 
 ## Game rules 
 
