@@ -1,14 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome kaeb13,
+#  Battleship 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+* Battleship is wellknown board game where the player can guess the location of
+ships hidden on the board. You can read more specefics about the game on <a href=https://en.wikipedia.org/wiki/Battleship_(game)>Wikipedia.</a>
 
-## Reminders
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+* All written code is located in the run.py file. 
+
+* Link to live project <a href=https://battleshipebkalola.herokuapp.com> PRESS HERE </a>
 
 ## Creating the Heroku app
 
